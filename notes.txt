@@ -13,3 +13,34 @@ Absolute positioning
        absolute or relative
 
 Ch 5 Adaptive Layouts with Media Queries
+
+- Call it adaptive layout b/c sometimes people get confused about the term responsive
+- Recommended way is to write styles for smallest screen and then provide override styles
+in media queries that are triggered when viewport is larger than set threshold
+- Mobile browsers can have multiple viewports
+  - layout/actual viewport
+    - 980 pixels (not sure about this part)
+  - visual viewport
+    - what the user pinch and zoom on a page
+
+Can tell the browser what you want as the default viewport for certain screens
+- meta tag to do this
+- this is the initial scale stuff you did for sapling mobile homework
+- ideal viewport for the specific device that is recommended by browser maker
+- Page 95 has a really good table to understand this
+
+
+Device mode button in chrome dev tools
+
+Media query
+- group css declaration blocks
+- if screen is X pixels wide, if screen is wider than is tall, if screen has high pixel density
+- @media followed by conditions then { }
+- media types
+  - made to differentiate between devices (smart tv vs handheld)
+  - browsers don't do a good job with this so almost always specify all
+
+
+Phillip Walton's Flexbox resources
+- Solved by Flexbox: philipwalton.github.io/solved-by-flexbox
+- Flexbugs: github.com/philipwalton/flexbugs
