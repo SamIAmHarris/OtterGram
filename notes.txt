@@ -1,0 +1,15 @@
+***Should add all notes before page 86 above here***
+
+Ch 4 Responsive layouts with Flexbox (starting at page 86)
+
+Absolute vs Relative Positioning
+
+Absolute positioning
+- Place an element in an exact spot inside another element
+- 3 Requirements:
+  - 1. property positions: absolute
+  - 2. coordinates: distance of edge of element to edge of its container
+  - 3. ancestor element that has declared position property of either
+       absolute or relative
+
+Ch 5 Adaptive Layouts with Media Queries
