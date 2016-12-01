@@ -66,4 +66,27 @@ Data attributes
 - need to start with data-
 - better to use data- attributes with javascript and class elements with css to
 keep things separated
-- Use them to make queries about content of a web page
+- Use them to make queries about content of a web page --> get reference to element
+- Can read, change attributes, change text, get access to elements around a reference
+- Once make a change to an element, the browser updates the page immediately
+
+
+Script after body because browser starts running it immediately. Won't be able to reference anything unless it is after.
+
+Console
+- Can directly write code into the console of DevTools
+
+
+document
+- object that corresponds to the entire page
+- querySelector method with dot notation: document.querySelector
+
+DOM: Document Object Model
+- browsers internal representation of the an HTML document
+- can interact with the DOM with the document object. Every HTML tag is an element (or really variable)
+in the document object
+
+Parameters vs Arguments
+- parameters defined in the function
+- arguments are what you pass the function when you use it
+- think I've always used these terms interchangeably 
