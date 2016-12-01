@@ -44,3 +44,26 @@ Media query
 Phillip Walton's Flexbox resources
 - Solved by Flexbox: philipwalton.github.io/solved-by-flexbox
 - Flexbugs: github.com/philipwalton/flexbugs
+
+
+CH 6 Handling Events with Javascript
+
+Javascript adds functionality to websites by manipulating DOM elements and CSS styles on a page
+
+ECMAScript Editions
+- 3: December 1999
+    - encompasses most of the language features you use
+- 5: December 2009
+    - backwards compatible
+    - Opt in enhancements that prevent the usage of more error prone parts
+- 6: June 2015
+    - new syntax and language features
+    - Can be translated into ES5
+    - Not all browsers support it yet
+
+Data attributes
+- use them to refer to elements on page with Javascript
+- need to start with data-
+- better to use data- attributes with javascript and class elements with css to
+keep things separated
+- Use them to make queries about content of a web page
