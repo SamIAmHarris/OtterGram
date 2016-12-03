@@ -89,4 +89,30 @@ in the document object
 Parameters vs Arguments
 - parameters defined in the function
 - arguments are what you pass the function when you use it
-- think I've always used these terms interchangeably 
+- think I've always used these terms interchangeably
+
+
+Event listeners
+- Available for every DOM element: addEventListener
+- addEventListener
+    - 2 arguments: String: name of event and function
+    - anonymous function
+- Get passed an event object by browser with data
+    - this event object has a lot of data in it
+    - Call the prevent default on it in our example to prevent page from opening
+    a new page
+
+Callback pattern
+- Pass a function to another function
+- function you pass to another function will get called back at some point
+in the future
+
+
+querySelectorAll
+- like querySelector but gets......all of those items
+
+
+forEach - array method to iterate over array and pass it a callback
+
+Method to convert NodeList to array
+- [].slice.call(leArray);
