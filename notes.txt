@@ -116,3 +116,66 @@ forEach - array method to iterate over array and pass it a callback
 
 Method to convert NodeList to array
 - [].slice.call(leArray);
+
+
+NodeLists and HTMLCollections
+- document.querySelectorAll returns a NodeList
+- document.getElementsByTagName returns an HTMLCollection
+- neither are true arrays
+- HTMLCollections are live nodes which means that when changes are made to the DOM, the contents of the
+HTMLCollection will change
+- Arrays also offer a lot of convenient methods to work with them
+
+Types
+- 5 Primitive types in Javascript
+- string
+- number: whole numbers and decimals
+- Boolean: t/f
+- null: invalid value
+- undefined: value of a variable that has not been assigned
+
+
+
+CH 7: Visual Effects with CSS
+
+Hide items
+- set the display to none
+
+Strict vs loose equality operator
+- loose will automatically convert from one type to another
+- strict will not do the conversion
+- type coercion
+
+
+Transitions
+- gradual change from one visual state to another
+- tell browser how long to take when making a change
+- Example: transition: transform 133ms:
+    - would tell the browser to animate any transform changes and take 133 milliseconds
+- Can add transition to just one state or both if you want to. Browser will use the value
+  of the declaration it is moving toward.
+
+Transform property
+- alter the shape, size, rotation, and location of an element
+  without altering the flow of the elements around it
+
+Pseudo-class
+- class that is in a certain state
+- example would be a class where the user is hovering the mouse over it: hover
+
+Timing function
+- Different ways to animate items over time
+- linear timing is default: single, constant rate
+- ease-in-out: slower at beginning and end and faster in middle
+
+
+cubic Bezier curves
+- graphs that describe the behavior of an animation over time
+- defined by four points
+- can create your own by going to cubic-bezier.com and getting the 4 values
+  from there
+
+Type Coercion
+- Can combine two different types
+- Can compare two different types
+- Javascript will make it work even if it is a bit weird
